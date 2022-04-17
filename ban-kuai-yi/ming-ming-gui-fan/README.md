@@ -4,7 +4,7 @@ description: 前端开发常见类型的命名规范
 
 # 命名规范
 
-<table border="1">
+<table border="1px">
       <thead>
         <tr>
           <th>单词</th>
