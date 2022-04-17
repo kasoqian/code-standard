@@ -18,10 +18,7 @@
 # DOM
 
 
-# javascript
-
-
-# typescript
+# javascript/typescript
 
 ## 全局变量：
 
@@ -32,6 +29,14 @@
 ## 实例：
 
 ## 函数
+
+# typescript
+
+## 普通类型
+
+## 泛型
+
+## 接口
 
 
 # 其他：
