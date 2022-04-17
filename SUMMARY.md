@@ -4,12 +4,13 @@
 
 ## 板块一
 
-* [命名规范](ban-kuai-yi/ming-ming-gui-fan/README.md)
-  * [通用名](ban-kuai-yi/ming-ming-gui-fan/tong-yong-biao-zhun.md)
-  * [方法名](ban-kuai-yi/ming-ming-gui-fan/han-shu-biao-zhun.md)
-  * [状态名](ban-kuai-yi/ming-ming-gui-fan/zhuang-tai-ming-ming.md)
-  * [实例名](ban-kuai-yi/ming-ming-gui-fan/shi-li-biao-zhun.md)
-  * [接口名](ban-kuai-yi/ming-ming-gui-fan/ming-ming-gui-fan.md)
+* [命名规范](ban-kuai-yi/ming-ming-gui-fan.md)
+* [用词规范](ban-kuai-yi/ming-ming-gui-fan-1/README.md)
+  * [通用名](ban-kuai-yi/ming-ming-gui-fan-1/tong-yong-biao-zhun.md)
+  * [方法名](ban-kuai-yi/ming-ming-gui-fan-1/han-shu-biao-zhun.md)
+  * [状态名](ban-kuai-yi/ming-ming-gui-fan-1/zhuang-tai-ming-ming.md)
+  * [实例名](ban-kuai-yi/ming-ming-gui-fan-1/shi-li-biao-zhun.md)
+  * [接口名](ban-kuai-yi/ming-ming-gui-fan-1/ming-ming-gui-fan.md)
 
 ## 板块二
 
