@@ -1,5 +1,7 @@
 # 规范说明
 
+[GitBook在线链接](https://kasoqian.gitbook.io/code_standard/)
+
 本规范内容源自于一线开发人员，从开源项目，项目经历中总结的一套约定俗称的标准。旨在于提高开发效率与体验。
 
 
