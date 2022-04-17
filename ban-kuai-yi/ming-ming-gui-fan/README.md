@@ -4,9 +4,7 @@ description: 前端开发常见类型的命名规范
 
 # 命名规范
 
-
-
-    <table border="1">
+<table border="1">
       <thead>
         <tr>
           <th>单词</th>
@@ -181,4 +179,4 @@ description: 前端开发常见类型的命名规范
           <td>匹配是否相等</td>
         </tr>
       </tbody>
-    </table>
+</table>
