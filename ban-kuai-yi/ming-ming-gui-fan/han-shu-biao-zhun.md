@@ -1,10 +1,10 @@
 # 方法名
 
 <style>
-.table {color: red}
+.table{color: red}
 </style>
 
-# test{.table}
+# test {.table}
 
 | 单词          | 简述    | 用途                      |
 | ----------- | ----- | ----------------------- |
