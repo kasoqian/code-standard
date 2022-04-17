@@ -1,7 +1,7 @@
 # 方法名
 
 <style>
-table {color: red}
+.table {color: red}
 </style>
 
 | 单词          | 简述    | 用途                      |
@@ -38,4 +38,4 @@ table {color: red}
 | export      | 导出    | 导出(通常用于转换成特定格式的文件)      |
 | compress    | 压缩    | 压缩(依赖约定的算法)             |
 | decompress  | 解压    | 解压缩(依赖约定的算法)            |
-| match       | 匹配    | 匹配是否相等                  |
+| match       | 匹配    | 匹配是否相等                  |{.table}
