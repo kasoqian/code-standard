@@ -4,7 +4,7 @@ description: git commit时提供的message
 
 # commit
 
-### feat
+feat
 
 实现功能或特性。
 
@@ -12,17 +12,13 @@ description: git commit时提供的message
 💥 feat(模块): 添加了个很棒的功能
 ```
 
-
-
-### ix
+### fix
 
 修复bug，模块可以为bug号，如fix(#001)。
 
 ```
 🐛 fix(模块): 修复了一些 bug
 ```
-
-
 
 ### docs
 
@@ -32,8 +28,6 @@ description: git commit时提供的message
 📝 docs(模块): 更新了一下文档
 ```
 
-
-
 ### UI
 
 更新UI样式相关的内容。
@@ -41,8 +35,6 @@ description: git commit时提供的message
 ```
 🌷 UI(模块): 修改了一下样式
 ```
-
-
 
 ### chore
 
@@ -53,8 +45,6 @@ description: git commit时提供的message
 🏰 chore(模块): 对脚手架做了些更改
 ```
 
-
-
 ### locale
 
 多语言相关内容。
@@ -62,6 +52,4 @@ description: git commit时提供的message
 ```
 🌐 locale(模块): 为国际化做了微小的贡献
 ```
-
-
 

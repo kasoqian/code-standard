@@ -18,5 +18,5 @@
 
 ***
 
-* [commit](commit.md)
+* [commit](commit-message.md)
 * [加入开源建设](https://github.com/kasoqian/code-standard)
