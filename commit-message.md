@@ -60,3 +60,10 @@ locale(模块): 为国际化做了微小的贡献
 refactor(模块): 重构了locale组织形式
 ```
 
+
+
+
+
+**参考文献**
+
+1. [conventionalcommits](https://www.conventionalcommits.org/zh-hans/v1.0.0/) 约定式提交，一种用于给提交信息增加人机可读含义的规范
