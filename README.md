@@ -68,8 +68,8 @@ CTO："卧槽，我只让你改了一个翻译，你怎么全改了，你这让�
 
 **目前参照的库如下**
 
-* 蚂蚁金服团队ant-design
-* 饿了么团队element-ui
+* ant-design
+* element-ui
 * vue
 * react
 
