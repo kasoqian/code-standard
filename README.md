@@ -8,8 +8,6 @@ description: 旨在团队在协同开发时，建立一致性的开发体验。
 本规范仅适用于前端开发领域。
 {% endhint %}
 
-[GitBook在线链接](https://kasoqian.gitbook.io/code\_standard/)
-
 ### 我们为什么需要规范？
 
 以下列举到一些场景，您是否有类似的感受？
