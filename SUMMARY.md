@@ -10,6 +10,7 @@
 
 ## 🔮 代码格式化
 
+* [tsconfig](dai-ma-ge-shi-hua/tsconfig.md)
 * [stylelint](dai-ma-ge-shi-hua/stylelint.md)
 * [prettier](dai-ma-ge-shi-hua/prettier.md)
 * [eslint](dai-ma-ge-shi-hua/eslint.md)
