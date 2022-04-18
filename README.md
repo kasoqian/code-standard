@@ -1,17 +1,32 @@
+---
+description: 旨在团队在协同开发时，建立一致性的开发体验。
+---
+
 # 规范说明
+
+{% hint style="info" %}
+本规范仅适用于前端开发领域。
+{% endhint %}
 
 [GitBook在线链接](https://kasoqian.gitbook.io/code\_standard/)
 
-本规范内容源自于一线开发人员，从开源项目，项目经历中总结的一套约定俗称的标准。旨在于提高开发效率与体验。
 
-本书核心内容
 
-* [x] 命名规范
-  * [x] 通用命名
-  * [x] 接口命名
-  * [x] 方法命名
-  * [x] 实例命名
-  * [x] 状态命名
+本书规范均选自知名项目，从中进行收录，节选有：
+
+* UI库
+  * &#x20;ant-design
+  * element-ui
+* 框架
+  * vue
+  * react
+
+
+
+**TODO**
+
 * [ ] 目录规范
-  * [ ] 目录约定
-  * [ ] 最小化目录约定
+* [ ] git commit规范
+* [ ] .prettierrc规范
+* [ ] .stylelintrc规范
+
