@@ -4,7 +4,7 @@ description: git commit时提供的message
 
 # commit
 
-feat
+### feat
 
 实现功能或特性。
 
