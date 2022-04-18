@@ -5,7 +5,7 @@
 ## 👨💻 编码
 
 * [命名格式](ban-kuai-yi/ming-ming-gui-fan.md)
-* [命名拼写](ban-kuai-yi/ming-ming-gui-fan-1/README.md)
+* [单词拼写](ban-kuai-yi/ming-ming-gui-fan-1/README.md)
   * [通用名](ban-kuai-yi/ming-ming-gui-fan-1/tong-yong-biao-zhun.md)
   * [方法名](ban-kuai-yi/ming-ming-gui-fan-1/han-shu-biao-zhun.md)
   * [状态名](ban-kuai-yi/ming-ming-gui-fan-1/zhuang-tai-ming-ming.md)
