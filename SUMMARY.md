@@ -4,20 +4,20 @@
 
 ## 👨💻 编码
 
-* [命名格式](ban-kuai-yi/ming-ming-gui-fan.md)
-* [单词拼写](bian-ma/ming-ming-gui-fan-1.md)
-* [目录形式](bian-ma/mu-lu-gui-fan.md)
+* [命名格式](programming-standard/naming.md)
+* [单词拼写](programming-standard/spelling.md)
+* [目录形式](programming-standard/directory.md)
 
 ## 🔮 代码格式化
 
-* [tsconfig](dai-ma-ge-shi-hua/tsconfig.md)
-* [stylelint](dai-ma-ge-shi-hua/stylelint.md)
-* [prettier](dai-ma-ge-shi-hua/prettier.md)
-* [eslint](dai-ma-ge-shi-hua/eslint.md)
+* [tsconfig](code-formatting/tsconfig.md)
+* [stylelint](code-formatting/stylelint.md)
+* [prettier](code-formatting/prettier.md)
+* [eslint](code-formatting/eslint.md)
 
 ## 👨👩👧👦 git
 
 ***
 
-* [commit](commit-message.md)
+* [commit](git-commit/commit-message.md)
 * [加入开源建设](https://github.com/kasoqian/code-standard)
