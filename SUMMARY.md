@@ -19,5 +19,6 @@
 
 * [commit](git/commitlint.md)
 * [版本号](git/version.md)
-* 
-* [项目地址](https://github.com/kasoqian/code-standard)
+
+
+## [项目地址](https://github.com/kasoqian/code-standard)

@@ -4,110 +4,215 @@ description: git commit时提供的message
 
 # commit
 
-### build
+## 介绍
 
-修改项目构建系统。
+Git是一个免费的、开源的分布式项目版本控制系统，旨在以快速高效的方式处理从小型到大型的所有项目。
+
+git commit是对代码进行更改后的快照，提交一个commit意味达到某一“安全”的版本。除非明确要求，否则git永远不会主动修改历史commit。
+
+本文介绍commit中所提供的相关表述规范，使其更易读。
+
+## 开始使用
+
+如果您还没有安装git，可以点此[下载Git](https://git-scm.com/downloads)。
+
+下载完客户端后，在命令行输入git，如显示git相关指引则为成功，显示`command not found`则为失败。
+
+## 基本用法
+
+**案例**
+
+```git 
+feat(user.tsx): add user login module(#9527)
+```
+
+  1. 表示提交类型的单词统一为小写；
+  2. user.tsx为模块名，可以省略；
+  3. `:`为半角，且后面加上一个空格;
+  4. 内容简要，不赘述；
+  5. `#9527`为模块编号
+
+
+### 常用类型
+
+#### feat
+
+**描述**
+
+实现某一功能或特性。
 
 ```
-build(模块)：主要目的是修改项目构建系统(例如 glup，webpack，rollup 的配置等)的提交
+feat(模块?)：实现某一功能的描述(#功能的需求号?)
 ```
 
-### ci
+**案例**
 
-修改项目继续集成流程。
+```
+feat: improve template expression error message    // vue写法
+```
+
+#### fix
+
+**描述**
+
+修复 bug，通常在尾部追加bug号。
+
+```
+fix(模块?)：修复某一功能的描述(#bug号)
+```
+
+**案例**
+
+```
+fix(security) upgrade lodash.template (#10257)    // vue写法 
+```
+
+
+#### docs
+
+**描述**
+
+更新文档相关的内容。
+
+```
+docs(模块?)：更新了一下文档(#文档号?)
+```
+
+**注意**
+
+在vue中主要采用`chore`来修改文档，而用docs较少。
+
+```
+docs: fix link to point to ModuleOptions lines (#10531)    // vue写法
+```
+
+#### chore
+
+**描述**
+
+常规事务相关的操作，无关核心代码。常见包括有修改package.json，处理ci/cd，定时导出日志等。
+
+```
+chore(模块?): 常规事务的操作(#事务号?)
+```
+
+**案例**
+
+```
+chore(readme): svg image (#11078) [ci skip]    // vue写法
+```
+
+#### refactor
+
+**描述**
+
+单纯的代码重构，未改变结构任何功能。
+
+```
+refactor(模块?)：重构了某功能的组织形式(#重构需求号)
+```
+
+**案例**
+
+```
+refactor: improve option type check warnings    // vue写法
+```
+
+### 不常用类型
+
+#### build
+
+**描述**
+
+主要目的是修改项目构建系统(例如 glup，webpack，rollup 的配置等)的提交。
+
+```
+build(模块?): 构建某一个工具或板块(#构建号)
+```
+
+**案例**
+
+```
+build(deps): bump eslint-utils from 1.3.1 to 1.4.2 (#10630)    // vue写法 
+```
+
+#### ci
+
+**描述**
+
+修改项目继续集成相关流程。
 
 ```
 ci(模块)：主要目的是修改项目继续集成流程(例如 Travis，Jenkins，GitLab CI，Circle等)的提交
 ```
 
-### feat
+#### UI
 
-实现功能或特性。
-
-```
-feat(模块)：添加了个很棒的功能
-```
-
-### fix
-
-修复 bug，模块可以为 bug 号，如 fix(#001)。
-
-```
-fix(模块): 修复了一些 bug
-```
-
-### docs
-
-更新文档相关的内容。
-
-```
-docs(模块)：更新了一下文档
-```
-
-### UI
+**描述**
 
 更新 UI 样式相关的内容。
 
 ```
-UI(模块)：修改了一下样式
+UI(模块?)：修改了某一处样式(#需求号?)
 ```
 
-### chore
+#### locale
 
-不属于以上类型的其他类型(日常事务)。
-
-```
-chore(模块)：不属于以上类型的其他类型(日常事务)
-```
-
-### locale
+**描述**
 
 多语言相关内容。
 
 ```
-locale(模块)：为国际化做了微小的贡献
+locale(en?)：完成某个页面的国际化内容(#需求号?)
 ```
 
-### refactor
 
-未改变任何功能，单纯的代码重构。
+#### perf
 
-```
-refactor(模块)：重构了locale组织形式
-```
-
-### perf
+**描述**
 
 性能优化。
 
 ```
-perf：性能优化
+perf(模块?)：优化了某方面的性能(#需求号?)
 ```
 
-### refactor
-
-重构代码
+**案例**
 
 ```
-refactor：重构代码(既没有新增功能，也没有修复 bug)
+perf: skip scoped slots normalization when possible     // vue写法
 ```
 
-### test
+
+#### test
+
+**描述**
 
 新增测试用例或是更新现有测试。
 
 ```
-test：新增测试用例或是更新现有测试
+test(模块?)：新增测试用例或是更新现有测试(#需求号?)
 ```
 
-### revert
+**示例**
+
+```
+refactor: improve test case    // vue写法
+```
+
+
+#### revert
+
+**描述**
 
 回滚某个更早之前的提交。
 
 ```
-revert：回滚某个更早之前的提交
+revert(模块?)：回滚某个更早之前的提交(#需求号?)
 ```
 
 **参考文献**
 
-1. [conventionalcommits](https://www.conventionalcommits.org/zh-hans/v1.0.0/) 约定式提交，一种用于给提交信息增加人机可读含义的规范
+1. [conventionalcommits](https://www.conventionalcommits.org/zh-hans/v1.0.0/)
+2. [Git commit](https://www.atlassian.com/git/tutorials/saving-changes/git-commit)
+3. [vue](https://github.com/vuejs/vue/commits/dev?after=6aa11872c88481dfa2da151536317176c48f226c+279&branch=dev)
