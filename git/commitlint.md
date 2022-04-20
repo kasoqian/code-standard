@@ -1,5 +1,5 @@
 ---
-description: git commit时提供的message
+description: 基于git commit时message的规范约束
 ---
 
 # commit
@@ -8,15 +8,24 @@ description: git commit时提供的message
 
 Git是一个免费的、开源的分布式项目版本控制系统，旨在以快速高效的方式处理从小型到大型的所有项目。
 
-git commit是对代码进行更改后的快照，提交一个commit意味达到某一“安全”的版本。除非明确要求，否则git永远不会主动修改历史commit。
+git commit会对代码更改后进行快照，提交一个commit作为一个节点，意味达到某一“安全”的版本。除非开发者手动操作，否则git永远不会主动修改历史commit。
 
-本文介绍commit中所提供的相关表述规范，使其更易读。
+本文介绍有关于commit中所提供的相关表述规范，使其符合开发规范。
 
 ## 开始使用
 
 如果您还没有安装git，可以点此[下载Git](https://git-scm.com/downloads)。
 
-下载完客户端后，在命令行输入git，如显示git相关指引则为成功，显示`command not found`则为失败。
+下载完客户端后，在命令行输入git并敲击回车，显示`command not found`则为安装失败。如显示下列指引则为成功，
+
+```
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
+           <command> [<args>]
+```
 
 ## 基本用法
 
@@ -26,27 +35,22 @@ git commit是对代码进行更改后的快照，提交一个commit意味达到�
 feat(user.tsx): add user login module(#9527)
 ```
 
-  1. 表示提交类型的单词统一为小写；
-  2. user.tsx为模块名，可以省略；
-  3. `:`为半角，且后面加上一个空格;
-  4. 内容简要，不赘述；
-  5. `#9527`为模块编号
+  1. `feat`，表示提交的类型，统一小写；
+  2. `user.tsx`，为模块名或文件名，选用；
+  3. `:`，为半角，且后面需补加一个空格;
+  4. `add user login module`，简要描述提交内容；
+  5. `#9527`，为模块编号，选用。
 
 
 ### 常用类型
 
 #### feat
-
 **描述**
-
 实现某一功能或特性。
-
 ```
 feat(模块?)：实现某一功能的描述(#功能的需求号?)
 ```
-
 **案例**
-
 ```
 feat: improve template expression error message    // vue写法
 ```
