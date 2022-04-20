@@ -17,7 +17,5 @@
 
 ## 👨👩👧👦 git
 
-***
-
 * [commit](git/commitlint.md)
 * [加入开源建设](https://github.com/kasoqian/code-standard)
