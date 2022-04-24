@@ -2,7 +2,7 @@
 
 **ant-design的配置**
 
-```
+```json
 {
   "compilerOptions": {
     "baseUrl": "./",
