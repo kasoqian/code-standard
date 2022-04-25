@@ -8,6 +8,12 @@
 * [单词拼写](coding/spelling.md)
 * [目录形式](coding/directory.md)
 
+## 语言
+
+* [HTML](programming/html.md)
+* [css](programming/css.md)
+* [js/ts](programming/javascript.md)
+
 ## 代码格式化
 
 * [tsconfig](formatting/tsconfig.md)
