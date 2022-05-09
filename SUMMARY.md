@@ -4,15 +4,15 @@
 
 ## 🎼 编码要求
 
-* [命名格式](bian-ma-yao-qiu/naming.md)
-* [单词拼写](bian-ma-yao-qiu/spelling.md)
-* [目录形式](bian-ma-yao-qiu/directory.md)
+* [命名格式](coding/naming.md)
+* [单词拼写](coding/spelling.md)
+* [目录形式](coding/directory.md)
 
 ## 🚀 编程语言
 
-* [HTML](bian-cheng-yu-yan/html.md)
-* [css](bian-cheng-yu-yan/css.md)
-* [js/ts](bian-cheng-yu-yan/javascript.md)
+* [HTML](programmer/html.md)
+* [css](programmer/css.md)
+* [js/ts](programmer/javascript.md)
 
 ## 💓 格式化插件
 
