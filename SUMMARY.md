@@ -16,6 +16,7 @@
 
 ## 代码格式化
 
+* [JSS](formatting/JSS.md)
 * [tsconfig](formatting/tsconfig.md)
 * [stylelint](formatting/stylelint.md)
 * [prettier](formatting/prettier.md)
