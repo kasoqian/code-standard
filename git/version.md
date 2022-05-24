@@ -1,10 +1,13 @@
 # 版本号
 
-<link rel="stylesheet" href="website.css" type="text/css">
+<style>
+    #color{
+        background:red
+    }
+</style>
 
-<div style="background:red">
-重要说明：在继续之前， 您应该重新阅读[Overlay和Eclasses]() 和[Portage Cache]()部分。
-</div>
+
+# 重要说明：在继续之前， 您应该重新阅读[Overlay和Eclasses]() 和[Portage Cache]()部分。 {#color}
 
 ## 介绍
 
