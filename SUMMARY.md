@@ -1,3 +1,7 @@
+<style>
+    .book .book-body .page-wrapper .page-inner section.normal table td, .book .book-body .page-wrapper .page-inner section.normal table th { border-left: none; border-right: none; }
+</style>
+
 # Table of contents
 
 * [规范说明](README.md)
