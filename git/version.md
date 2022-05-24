@@ -1,13 +1,8 @@
 # 版本号
 
-<style>
-    #color{
-        background:red
-    }
-</style>
-
-
-# 重要说明：在继续之前， 您应该重新阅读[Overlay和Eclasses]() 和[Portage Cache]()部分。 {#color}
+<div class="alert-warning">
+重要说明：在继续之前， 您应该重新阅读[Overlay和Eclasses]() 和[Portage Cache]()部分。
+</div>
 
 ## 介绍
 
