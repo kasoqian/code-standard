@@ -14,13 +14,13 @@
 * [css](programmer/css.md)
 * [js/ts](programmer/javascript.md)
 
-## 💓 格式化插件 <a href="#formatting" id="formatting"></a>
+<!-- ## 💓 格式化插件 <a href="#formatting" id="formatting"></a>
 
 * [JSS](formatting/jss.md)
 * [tsconfig](formatting/tsconfig.md)
 * [stylelint](formatting/stylelint.md)
 * [prettier](formatting/prettier.md)
-* [eslint](formatting/eslint.md)
+* [eslint](formatting/eslint.md) -->
 
 ## 🚋 git
 
