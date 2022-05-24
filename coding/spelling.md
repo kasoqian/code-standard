@@ -10,9 +10,9 @@ description: 前端开发常见用词规范
 
 ## 使用
 
-以下提供了若干单词，通常作为某一方法或属性的前缀，格式如`on`+`click` = `onClick`。
+以下提供了若干单词，通常作为某一方法或属性的前缀，格式如`on`+`click`=`onClick`。
 
-### 🗓 通用名
+### 🏝️ 常见名词
 
 无固定约束，大多数通常场景的名称，如查询用户信息可以使用`query`+`userInfo`=`queryUserInfo` 。
 
@@ -27,7 +27,7 @@ description: 前端开发常见用词规范
 | append    | 追加 | 在尾部添加                                           |
 | calculate | 计算 | 通过的计算获取内容                                   |
 
-### 🗓 接口名
+### 🏝️ 调用接口
 
 与后端进行接口对接时使用的命名，如获取订单数据`fetch`+`orders`=`fetchOrders`。
 
@@ -40,7 +40,7 @@ description: 前端开发常见用词规范
 | fetch  | 获取         | 通过网络请求获取内容     |
 | DTO    | 数据传输格式 | Data Transfer Object     |
 
-### 🗓 状态名
+### 🏝️ 状态变化
 
 表示某一种状态，如显示，隐藏，暂停等，通常加上`is`用布尔值来表示，如`isStart`。
 
@@ -56,7 +56,7 @@ description: 前端开发常见用词规范
 | close      | 关闭   | 关闭(多用于关闭状态,关闭文件等)            |
 | destroy    | 销毁   | 销毁实例，常用语析构方法                   |
 
-### 🗓 实例名
+### 🏝️ 实例操作
 
 实例专用，如虚拟dom，vue实例等实例，如`create`+`element`=`createElement`。
 
@@ -70,7 +70,7 @@ description: 前端开发常见用词规范
 | uninitialize(uninit) | 卸载初始化 | 清理实例的属性和设置，通常和Initialize对应                     |
 | load                 | 加载       | 加载配置，根据配置创建内容                                     |
 
-### 🗓 方法名
+### 🏝️ 方法操作
 
 作为方法单独存在的名称，通常用作函数命名，如`open`+`dialog`=`openDialog`。
 
