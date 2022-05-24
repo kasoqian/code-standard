@@ -45,9 +45,7 @@ feat(user.tsx): add user login module(#9527)
 ## 常用类型
 
 ### `feat`
-**描述**
-
-实现某一功能或特性。
+**描述**：实现某一功能或特性。
 
 ```
 feat(模块?)：实现某一功能的描述(#功能的需求号?)
@@ -61,9 +59,7 @@ feat: improve template expression error message    // vue写法
 
 ### `fix`
 
-**描述**
-
-修复 bug，通常在尾部追加bug号。
+**描述**：修复 bug，通常在尾部追加bug号。
 
 ```
 fix(模块?)：修复某一功能的描述(#bug号)
@@ -78,17 +74,13 @@ fix(security) upgrade lodash.template (#10257)    // vue写法
 
 ### `docs`
 
-**描述**
-
-更新文档相关的内容。
+**描述**：更新文档相关的内容。
 
 ```
 docs(模块?)：更新了一下文档(#文档号?)
 ```
 
-**注意**
-
-在vue中主要采用`chore`来修改文档，而用docs较少。
+**注意**：在vue中主要采用`chore`来修改文档，而用docs较少。
 
 ```
 docs: fix link to point to ModuleOptions lines (#10531)    // vue写法
@@ -96,9 +88,7 @@ docs: fix link to point to ModuleOptions lines (#10531)    // vue写法
 
 ### `chore`
 
-**描述**
-
-常规事务相关的操作，无关核心代码。常见包括有修改package.json，处理ci/cd，定时导出日志等。
+**描述**：常规事务相关的操作，无关核心代码。常见包括有修改package.json，处理ci/cd，定时导出日志等。
 
 ```
 chore(模块?): 常规事务的操作(#事务号?)
@@ -112,9 +102,7 @@ chore(readme): svg image (#11078) [ci skip]    // vue写法
 
 ### `refactor`
 
-**描述**
-
-单纯的代码重构，未改变结构任何功能。
+**描述**：单纯的代码重构，未改变结构任何功能。
 
 ```
 refactor(模块?)：重构了某功能的组织形式(#重构需求号)
@@ -130,9 +118,7 @@ refactor: improve option type check warnings    // vue写法
 
 ### `build`
 
-**描述**
-
-主要目的是修改项目构建系统(例如 glup，webpack，rollup 的配置等)的提交。
+**描述**：主要目的是修改项目构建系统(例如 glup，webpack，rollup 的配置等)的提交。
 
 ```
 build(模块?): 构建某一个工具或板块(#构建号)
@@ -146,9 +132,7 @@ build(deps): bump eslint-utils from 1.3.1 to 1.4.2 (#10630)    // vue写法
 
 ### `ci`
 
-**描述**
-
-修改项目继续集成相关流程。
+**描述**：修改项目继续集成相关流程。
 
 ```
 ci(模块)：主要目的是修改项目继续集成流程(例如 Travis，Jenkins，GitLab CI，Circle等)的提交
@@ -156,9 +140,7 @@ ci(模块)：主要目的是修改项目继续集成流程(例如 Travis，Jenki
 
 ### `UI`
 
-**描述**
-
-更新 UI 样式相关的内容。
+**描述**：更新 UI 样式相关的内容。
 
 ```
 UI(模块?)：修改了某一处样式(#需求号?)
@@ -166,9 +148,7 @@ UI(模块?)：修改了某一处样式(#需求号?)
 
 ### `locale`
 
-**描述**
-
-多语言相关内容。
+**描述**：多语言相关内容。
 
 ```
 locale(en?)：完成某个页面的国际化内容(#需求号?)
@@ -177,9 +157,7 @@ locale(en?)：完成某个页面的国际化内容(#需求号?)
 
 ### `perf`
 
-**描述**
-
-性能优化。
+**描述**：性能优化。
 
 ```
 perf(模块?)：优化了某方面的性能(#需求号?)
@@ -194,9 +172,7 @@ perf: skip scoped slots normalization when possible     // vue写法
 
 ### `test`
 
-**描述**
-
-新增测试用例或是更新现有测试。
+**描述**：新增测试用例或是更新现有测试。
 
 ```
 test(模块?)：新增测试用例或是更新现有测试(#需求号?)
@@ -210,9 +186,7 @@ refactor: improve test case    // vue写法
 
 ### `revert`
 
-**描述**
-
-回滚某个更早之前的提交。
+**描述**：回滚某个更早之前的提交。
 
 ```
 revert(模块?)：回滚某个更早之前的提交(#需求号?)

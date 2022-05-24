@@ -1,11 +1,14 @@
 # 命名规范
 
+## 介绍
 常见命名规范有4种
 
 * 下划线命名 my\_first\_name
 * 中划线命名 my-first-name
 * 小驼峰命名 myFirstName
 * 大驼峰命名 MyFirstElement
+
+## 使用
 
 ### 文件夹
 
