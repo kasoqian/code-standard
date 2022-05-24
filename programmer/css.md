@@ -1,14 +1,5 @@
 # CSS
 
-<div>
-<style>
-    .red{
-        color:red
-    }
-    </style>
-<a class="red"> Ceshi </a>
-</div>
-
 ## 缩进
 
 使用soft tab（4个空格）。
