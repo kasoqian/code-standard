@@ -1,5 +1,5 @@
 {
-    "styles": {
-        "website": "./css/main.css"
+    "style": {
+        "website": "styles/website.css"
     }
 }
